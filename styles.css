@@ -503,48 +503,36 @@ body {
     font-size: 1.1rem;
 }
 
-.social-links {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-}
-
-.social-link {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 12px 20px;
-    background: #f8f9fa;
-    border-radius: 25px;
+.contact-link {
+    color: #2c5530;
     text-decoration: none;
-    color: #333;
     font-weight: 500;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
+    transition: color 0.3s ease;
 }
 
-.social-link:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    text-decoration: none;
-    color: #333;
+.contact-link:hover {
+    color: #1e3a21;
+    text-decoration: underline;
 }
 
-.wechat-link:hover {
-    background: #07c160;
-    color: white;
-    border-color: #07c160;
+.qr-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
 }
 
-.facebook-link:hover {
-    background: #1877f2;
-    color: white;
-    border-color: #1877f2;
+.qr-section p {
+    margin: 0;
+    white-space: nowrap;
 }
 
-.social-icon {
-    font-size: 1.2rem;
+.qr-image-static {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    object-fit: contain;
 }
 
 /* Footer */
