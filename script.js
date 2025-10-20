@@ -1,5 +1,5 @@
 // Language toggle functionality
-let currentLanguage = 'zh'; // Default to Chinese
+let currentLanguage = 'en'; // Default to English
 
 document.addEventListener('DOMContentLoaded', function() {
     const langToggle = document.getElementById('lang-toggle');
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // Initialize with Chinese (default)
+    // Initialize with English (default)
     updateLanguage();
     
     // Smooth scrolling for navigation links
